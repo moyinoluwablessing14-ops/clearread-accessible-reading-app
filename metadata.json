@@ -1,0 +1,6 @@
+{
+  "name": "ClearRead - Accessible Reading App",
+  "description": "An accessible reading tool for students with dyslexia, low vision, and hearing differences. Simplifies, chunks, and customizes text with dyslexia-friendly typography and high-contrast themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Font Family Definitions */
+  .font-lexend {
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .font-opendyslexic {
+    font-family: 'OpenDyslexic', 'Lexend', sans-serif;
+  }
+  .font-atkinson {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  }
+  .font-comic {
+    font-family: 'Comic Neue', cursive, sans-serif;
+  }
+  .font-sans-clean {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  .font-serif-clean {
+    font-family: 'Merriweather', Georgia, Cambria, 'Times New Roman', serif;
+  }
+  .font-mono-clean {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  /* High focus visibility for keyboard navigation and screen readers */
+  :focus-visible {
+    outline: 3px solid #2563eb !important;
+    outline-offset: 3px !important;
+  }
+
+  /* Smooth reading transitions */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom styling for print or export */
+@media print {
+  header, nav, button, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}
